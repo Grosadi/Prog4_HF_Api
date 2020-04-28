@@ -71,30 +71,24 @@ namespace InfosAboutNba.Logic
         /// <param name="item"> A Team object.</param>
         public void Add(Teams item)
         {
-            if (item.idTeams == this.teamRepo.GetOne(item.idTeams).idTeams)
-            {
-                item.idTeams = this.teamRepo.GetAll().Count() + 1;
-                throw new Exception("This index is already used!\t New index: " + item.idTeams);
-            }
-            else
-            {
-                this.teamRepo.AddTeam(item);
-            }
+            item.idTeams = this.teamRepo.GetAll().Count() + 1;
+            this.teamRepo.AddTeam(item);
         }
 
         /// <summary>
         /// Removes the selected Team from the database.
         /// </summary>
         /// <param name="id"> id of the removable Team.</param>
-        public void Delete(int id)
+        public bool Delete(int id)
         {
             if (this.teamRepo.GetOne(id) == null)
             {
-                throw new Exception("This team is already deleted or doesn't exist!");
+                return false;
             }
             else
             {
                 this.teamRepo.DeleteTeam(id);
+                return true;
             }
         }
 
@@ -175,6 +169,11 @@ namespace InfosAboutNba.Logic
                           select x;
 
             return ranking.ToList();
+        }
+
+        public bool ModTeam(Teams team)
+        {
+            return this.teamRepo.ModTeam(team);
         }
     }
 }

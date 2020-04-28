@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InfosAboutNBA.Logic</name>
+    </assembly>
+    <members>
+        <member name="T:InfosAboutNba.Logic.CoachLogic">
+            <summary>
+            Logic class for Coaches wich represents ICoachLogic.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:InfosAboutNba.Logic.CoachLogic"/> class.
+            Empty Constructor.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.#ctor(InfosAboutNba.Repository.ICoachRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:InfosAboutNba.Logic.CoachLogic"/> class.
+            The Constructor needs an ICoachRepository object.
+            </summary>
+            <param name="repository"> ICoachRepository object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.GetOne(System.Int32)">
+            <summary>
+            Returns the selected Coach from the table Coaches.
+            </summary>
+            <param name="id"> id of the seleced Coach.</param>
+            <returns> Selected Coach object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.GetAll">
+            <summary>
+            Returns a List of all Coach from the table Coaches.
+            </summary>
+            <returns> List of Coaches.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.Add(InfosAboutNba.Data.Coaches)">
+            <summary>
+            Add new Coach item to the table Coaches.
+            </summary>
+            <param name="item"> New Coach object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.Delete(System.Int32)">
+            <summary>
+            Removes the selected Coach from the database.
+            </summary>
+            <param name="id"> id of the removable Coach.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.Champion(System.Int32)">
+            <summary>
+            Returns true, if the selected Coach ever been a champion.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <returns> True or False value.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.ModifyCoachWinPercentageInSeason(System.Int32,System.Double)">
+            <summary>
+            Modify the win percentage of the selected Coach int the Season.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <param name="newPercentage"> New win percentage value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.ModifyCoachNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Coach.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.CoachLogic.CoachOfTeam(System.Int32)">
+            <summary>
+            Returns the Coach of the selected Team.
+            </summary>
+            <param name="idTeam"> id of the selected Team.</param>
+            <returns> Coach object.</returns>
+        </member>
+        <member name="T:InfosAboutNba.Logic.ILogic`1">
+            <summary>
+            Basic interface of the Logic classes.
+            </summary>
+            <typeparam name="T"> T is a class.</typeparam>
+        </member>
+        <member name="M:InfosAboutNba.Logic.ILogic`1.GetOne(System.Int32)">
+            <summary>
+            Returns the selected T type object.
+            </summary>
+            <param name="id"> id of the returnable object.</param>
+            <returns> Selected object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.ILogic`1.GetAll">
+            <summary>
+            Returns a List whit the all T type object.
+            </summary>
+            <returns> T tpye List.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.ILogic`1.Add(`0)">
+            <summary>
+            Add one T type item to the database.
+            </summary>
+            <param name="item"> T type object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.ILogic`1.Delete(System.Int32)">
+            <summary>
+            Removes the selected T type object from the database.
+            </summary>
+            <param name="id"> id of the removable T type object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.ILogic`1.Champion(System.Int32)">
+            <summary>
+            Returns true, if the selected object was ever been a champion.
+            </summary>
+            <param name="id"> id of the selected object.</param>
+            <returns> True or false value.</returns>
+        </member>
+        <member name="T:InfosAboutNba.Logic.ITeamLogic">
+            <summary>
+            Interface for Teams wich represents basic interface, ILogic.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Logic.ITeamLogic.ModifyTeamWinPercentageInSeason(System.Int32,System.Double)">
+            <summary>
+            Modify the win percentage of the selected Team in the Season.
+            </summary>
+            <param name="id"> id of the selected Team.</param>
+            <param name="newPercentage"> New win percentage value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.ITeamLogic.ModifyTeamNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Team.
+            </summary>
+            <param name="id"> id of the selected Team.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="T:InfosAboutNba.Logic.IPlayerLogic">
+            <summary>
+            Interface for Players wich represents basic interface, ILogic.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Logic.IPlayerLogic.ModifyPlayerAge(System.Int32,System.Int32)">
+            <summary>
+            Modify the age of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newAge"> New age value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.IPlayerLogic.ModifyPlayerHeight(System.Int32,System.Int32)">
+            <summary>
+            Modify the height of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newHeigh"> New height value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.IPlayerLogic.ModifyPlayerWeight(System.Int32,System.Int32)">
+            <summary>
+            Modify the weight of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newWeight"> New weight value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.IPlayerLogic.ModifyPlayerPointsInSeason(System.Int32,System.Int32)">
+            <summary>
+            Modify the points of the selected Player in the Season.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newPoints"> New point value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.IPlayerLogic.ModifyPlayerNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="T:InfosAboutNba.Logic.ICoachLogic">
+            <summary>
+            Interface for Coaches wich represents basic interface, ILogic.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Logic.ICoachLogic.ModifyCoachWinPercentageInSeason(System.Int32,System.Double)">
+            <summary>
+            Modify the win percentage of the selected Coach int the Season.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <param name="newPercentage"> New win percentage value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.ICoachLogic.ModifyCoachNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Coach.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="T:InfosAboutNba.Logic.PlayerLogic">
+            <summary>
+            Logic class for Players wich represents IPlayerLogic interface.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:InfosAboutNba.Logic.PlayerLogic"/> class.
+            Empty Constructor.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.#ctor(InfosAboutNba.Repository.IPlayerRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:InfosAboutNba.Logic.PlayerLogic"/> class.
+            The Constructor needs a IPlayerRepository object.
+            </summary>
+            <param name="repository"> IPlayerRepository object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.GetOne(System.Int32)">
+            <summary>
+            Returns the selected Player object from table Players.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <returns> Selected Player.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.GetAll">
+            <summary>
+            Returns a List with the all Player item from table Players.
+            </summary>
+            <returns> List of Players.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.Add(InfosAboutNba.Data.Players)">
+            <summary>
+            Add new Player object to the table Players.
+            </summary>
+            <param name="item"> Player object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.Delete(System.Int32)">
+            <summary>
+            Removes the selected Player from the database.
+            </summary>
+            <param name="id"> id of the removable Player.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.Champion(System.Int32)">
+            <summary>
+            Returns true, if the selected Player ever been a champion.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <returns> True or False value.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.ModifyPlayerAge(System.Int32,System.Int32)">
+            <summary>
+            Modify the age of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newAge"> New age value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.ModifyPlayerHeight(System.Int32,System.Int32)">
+            <summary>
+            Modify the height of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newHeigh"> New height value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.ModifyPlayerWeight(System.Int32,System.Int32)">
+            <summary>
+            Modify the weight of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newWeight"> New weight value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.ModifyPlayerPointsInSeason(System.Int32,System.Int32)">
+            <summary>
+            Modify the points of the selected Player in the Season.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newPoints"> New point value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.ModifyPlayerNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.TeamRoster(System.Int32)">
+            <summary>
+            Returns a List with all Players of the selected Team.
+            </summary>
+            <param name="idTeam"> id of the seleted Team.</param>
+            <returns> List of Players.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.PlayerLogic.TeamValue(System.Int32)">
+            <summary>
+            Returns the Value of the selected Team.
+            Sum of the Players value in the selected Team.
+            </summary>
+            <param name="idTeam"> id of the selected Team.</param>
+            <returns> Value of the selected Team.</returns>
+        </member>
+        <member name="T:InfosAboutNba.Logic.TeamLogic">
+            <summary>
+            Logic class for Teams wich represents ITeamLogic interface.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:InfosAboutNba.Logic.TeamLogic"/> class.
+            Empty Constructor.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.#ctor(InfosAboutNba.Repository.ITeamRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:InfosAboutNba.Logic.TeamLogic"/> class.
+            The Constructor needs a ITeamRepository object.
+            </summary>
+            <param name="repo"> ITeamRepository object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.GetOne(System.Int32)">
+            <summary>
+            Returns the selected Team from tables Teams.
+            </summary>
+            <param name="id"> id of the selected Team.</param>
+            <returns> Selected Team object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.GetAll">
+            <summary>
+            Returns a List with the all Team from the tables Teams.
+            </summary>
+            <returns> List of Teams.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.Add(InfosAboutNba.Data.Teams)">
+            <summary>
+            Add one Team object to the tables Teams.
+            </summary>
+            <param name="item"> A Team object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.Delete(System.Int32)">
+            <summary>
+            Removes the selected Team from the database.
+            </summary>
+            <param name="id"> id of the removable Team.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.ModifyTeamWinPercentageInSeason(System.Int32,System.Double)">
+            <summary>
+            Modify the win percentage of the selected Team in the Season.
+            </summary>
+            <param name="id"> id of the selected Team.</param>
+            <param name="newPercentage"> New win percentage value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.ModifyTeamNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Team.
+            </summary>
+            <param name="id"> id of the selected Team.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.Champion(System.Int32)">
+            <summary>
+            Returns true, if the selected Team ever been a champion.
+            </summary>
+            <param name="id"> id of the selected Team.</param>
+            <returns> True or False value.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Logic.TeamLogic.RankingAllTime">
+            <summary>
+            Rank of teams by all time win percentage.
+            </summary>
+            <returns> Ordered list. </returns>
+        </member>
+    </members>
+</doc>

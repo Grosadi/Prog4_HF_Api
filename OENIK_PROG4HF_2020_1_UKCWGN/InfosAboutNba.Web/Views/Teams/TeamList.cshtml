@@ -1,0 +1,31 @@
+﻿@model IEnumerable<InfosAboutNba.Web.Models.Team>
+
+<h2 style="color:orangered">List of Teams</h2>
+
+@if(Model.Count() == 0)
+{
+    <p>No data in Database!</p>
+}
+else
+{
+    <table border="1">
+        <tr>
+            <th style="color:blue">@Html.DisplayNameFor(m => m.First().HomeTown) </th>
+            <th style="color:blue">@Html.DisplayNameFor(m => m.First().Name) </th>
+            <th style="color:yellowgreen">Datasheet</th>
+            <th style="color:red">Delete</th>
+            <th style="color:green">Edit</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+               <tr>
+                <td>@Html.DisplayFor(m => item.HomeTown)</td>
+                <td>@Html.DisplayFor(m => item.Name)</td>
+                <td>@Html.ActionLink("Show", "Details", new { id = item.ID })</td>
+                <td>@Html.ActionLink("Del", "Remove", new { id = item.ID })</td>
+                <td>@Html.ActionLink("Edit", "Edit", new { id = item.ID })</td>
+                </tr>
+        }
+    </table>
+}
+

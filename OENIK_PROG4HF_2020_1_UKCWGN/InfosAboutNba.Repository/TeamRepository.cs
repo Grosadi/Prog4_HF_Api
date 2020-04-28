@@ -88,5 +88,24 @@ namespace InfosAboutNba.Repository
             team.WinPercentageInSeason = newPercentage;
             this.entities.SaveChanges();
         }
+
+        public bool ModTeam(Teams team)
+        {
+            if (team.idTeams != 0)
+            {
+                var mod = this.GetOne(team.idTeams);
+                mod.TName = team.TName;
+                mod.HomeTown = team.HomeTown;
+                mod.Found = team.Found;
+                mod.WinPercentageSinceFounded = team.WinPercentageSinceFounded;
+                mod.WinPercentageInSeason = team.WinPercentageInSeason;
+                mod.NumberOfChampionships = team.NumberOfChampionships;
+
+                this.entities.SaveChanges();
+
+                return true;
+            }
+            else { return false; }
+        }
     }
 }

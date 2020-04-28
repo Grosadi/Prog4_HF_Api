@@ -1,0 +1,40 @@
+﻿@model InfosAboutNba.Web.Models.Team
+@{
+    ViewBag.Title = "TeamDetailsView";
+}
+
+<h2>Infos about a team</h2>
+
+@Html.ActionLink("Back to the list", "Index")
+
+<table border="1">
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.ID)</td>
+        <td>@Html.DisplayFor(m => m.ID)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Name)</td>
+        <td>@Html.DisplayFor(m => m.Name)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.HomeTown)</td>
+        <td>@Html.DisplayFor(m => m.HomeTown)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Found)</td>
+        <td>@Html.DisplayFor(m => m.Found)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.WinPercentageSinceFounded)</td>
+        <td>@Html.DisplayFor(m => m.WinPercentageSinceFounded)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.WinPercentageInSeason)</td>
+        <td>@Html.DisplayFor(m => m.WinPercentageInSeason)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.NumberOfChampionships)</td>
+        <td>@Html.DisplayFor(m => m.NumberOfChampionships)</td>
+    </tr>
+</table>
+

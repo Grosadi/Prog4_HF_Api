@@ -46,5 +46,7 @@ namespace InfosAboutNba.Repository
         /// </summary>
         /// <param name="id"> id of a Team.</param>
         void DeleteTeam(int id);
+
+        bool ModTeam(Teams team);
     }
 }

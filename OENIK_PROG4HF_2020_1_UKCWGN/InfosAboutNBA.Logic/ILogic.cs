@@ -39,7 +39,7 @@ namespace InfosAboutNba.Logic
         /// Removes the selected T type object from the database.
         /// </summary>
         /// <param name="id"> id of the removable T type object.</param>
-        void Delete(int id);
+        bool Delete(int id);
 
         /// <summary>
         /// Returns true, if the selected object was ever been a champion.
@@ -67,6 +67,8 @@ namespace InfosAboutNba.Logic
         /// <param name="id"> id of the selected Team.</param>
         /// <param name="newNumber"> New number of championships.</param>
         void ModifyTeamNumberOfChampionships(int id, int newNumber);
+
+        bool ModTeam(Teams team);
     }
 
     /// <summary>

@@ -284,5 +284,10 @@ namespace InfosAboutNba.Logic
 
             return value;
         }
+
+        bool ILogic<Players>.Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

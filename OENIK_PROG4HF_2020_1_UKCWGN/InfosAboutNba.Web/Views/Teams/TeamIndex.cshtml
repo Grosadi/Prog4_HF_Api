@@ -1,0 +1,13 @@
+﻿@model InfosAboutNba.Web.Models.TeamsViewModel
+@{
+    ViewBag.Title = "Team Index";
+}
+
+<h2>Team's</h2><img src="~/Content/Logos/nba-logo-vector-01.png" alt="NBA logo" style="float:right" />
+
+<p style="color:red; font-weight:bold">@TempData["editResult"]</p>
+
+@Html.Partial("TeamEdit", Model.EditedTeam) <img src="~/Content/Logos/basketball.jpg" alt="ball" style="float:right" height="500" width="700"/>
+@Html.Partial("TeamList", Model.ListOfTeams)
+
+

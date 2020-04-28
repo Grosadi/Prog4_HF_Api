@@ -177,5 +177,10 @@ namespace InfosAboutNba.Logic
 
             return coach.FirstOrDefault();
         }
+
+        bool ILogic<Coaches>.Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
