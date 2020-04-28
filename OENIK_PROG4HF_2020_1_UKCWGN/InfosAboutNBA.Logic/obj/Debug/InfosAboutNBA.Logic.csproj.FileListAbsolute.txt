@@ -1,0 +1,67 @@
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\Database.mdf
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\Database_log.ldf
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.dll.config
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.dll
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.pdb
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.dll
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.dll
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.dll
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.pdb
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.dll.config
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.pdb
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.dll.config
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.xml
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNBA.Logic.csprojAssemblyReference.cache
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNBA.Logic.csproj.CopyComplete
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNBA.Logic.dll
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNBA.Logic.pdb
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.xml
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.xml
+C:\Users\hp EliteBook\Documents\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.xml
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\Database.mdf
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\Database_log.ldf
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.dll.config
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.xml
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.dll
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.pdb
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.dll
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.dll
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.dll
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.pdb
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.xml
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.dll.config
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.pdb
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.xml
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.dll.config
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.xml
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNba.Logic.csprojAssemblyReference.cache
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNba.Logic.csproj.CopyComplete
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNBA.Logic.dll
+C:\Users\hp EliteBook\OneDrive - Óbudai egyetem\C#\oenik_prog3_2019_2_ukcwgn\CSHARP\OENIK_PROG3_2019_2_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNBA.Logic.pdb
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\Database.mdf
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\Database_log.ldf
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.dll.config
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.xml
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.dll
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Logic.pdb
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.dll
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.dll
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.dll
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.pdb
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.xml
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Data.dll.config
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.pdb
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.xml
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\InfosAboutNBA.Repository.dll.config
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.xml
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNba.Logic.csprojAssemblyReference.cache
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNba.Logic.csproj.CoreCompileInputs.cache
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNba.Logic.csproj.CopyComplete
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNBA.Logic.dll
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNBA.Logic\obj\Debug\InfosAboutNBA.Logic.pdb

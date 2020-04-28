@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="NBA_DatabaseEntities">
+    <EntitySetMapping Name="Coaches">
+      <EntityTypeMapping TypeName="DatabaseModel.Coaches">
+        <MappingFragment StoreEntitySet="Coaches">
+          <ScalarProperty Name="idCoaches" ColumnName="idCoaches" />
+          <ScalarProperty Name="CName" ColumnName="CName" />
+          <ScalarProperty Name="WinPercentage" ColumnName="WinPercentage" />
+          <ScalarProperty Name="NumberOfSeasons" ColumnName="NumberOfSeasons" />
+          <ScalarProperty Name="PreviusTeam" ColumnName="PreviusTeam" />
+          <ScalarProperty Name="NumberOfChampionships" ColumnName="NumberOfChampionships" />
+          <ScalarProperty Name="idTeams" ColumnName="idTeams" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Players">
+      <EntityTypeMapping TypeName="DatabaseModel.Players">
+        <MappingFragment StoreEntitySet="Players">
+          <ScalarProperty Name="idPlayers" ColumnName="idPlayers" />
+          <ScalarProperty Name="PName" ColumnName="PName" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="NumberOfPlayedSeason" ColumnName="NumberOfPlayedSeason" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="PWeight" ColumnName="PWeight" />
+          <ScalarProperty Name="NumberOfChampionships" ColumnName="NumberOfChampionships" />
+          <ScalarProperty Name="LifetimePoints" ColumnName="LifetimePoints" />
+          <ScalarProperty Name="PointsInSeason" ColumnName="PointsInSeason" />
+          <ScalarProperty Name="PValue" ColumnName="PValue" />
+          <ScalarProperty Name="idTeams" ColumnName="idTeams" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teams">
+      <EntityTypeMapping TypeName="DatabaseModel.Teams">
+        <MappingFragment StoreEntitySet="Teams">
+          <ScalarProperty Name="idTeams" ColumnName="idTeams" />
+          <ScalarProperty Name="TName" ColumnName="TName" />
+          <ScalarProperty Name="HomeTown" ColumnName="HomeTown" />
+          <ScalarProperty Name="Found" ColumnName="Found" />
+          <ScalarProperty Name="WinPercentageSinceFounded" ColumnName="WinPercentageSinceFounded" />
+          <ScalarProperty Name="WinPercentageInSeason" ColumnName="WinPercentageInSeason" />
+          <ScalarProperty Name="NumberOfChampionships" ColumnName="NumberOfChampionships" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

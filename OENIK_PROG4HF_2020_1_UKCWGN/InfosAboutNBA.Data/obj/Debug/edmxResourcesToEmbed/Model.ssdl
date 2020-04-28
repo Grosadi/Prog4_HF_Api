@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Coaches">
+    <Key>
+      <PropertyRef Name="idCoaches" />
+    </Key>
+    <Property Name="idCoaches" Type="int" Nullable="false" />
+    <Property Name="CName" Type="varchar" MaxLength="100" />
+    <Property Name="WinPercentage" Type="float" />
+    <Property Name="NumberOfSeasons" Type="int" />
+    <Property Name="PreviusTeam" Type="varchar" MaxLength="100" />
+    <Property Name="NumberOfChampionships" Type="int" />
+    <Property Name="idTeams" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Players">
+    <Key>
+      <PropertyRef Name="idPlayers" />
+    </Key>
+    <Property Name="idPlayers" Type="int" Nullable="false" />
+    <Property Name="PName" Type="varchar" MaxLength="100" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="NumberOfPlayedSeason" Type="int" />
+    <Property Name="Position" Type="varchar" MaxLength="5" />
+    <Property Name="Height" Type="int" Nullable="false" />
+    <Property Name="PWeight" Type="int" />
+    <Property Name="NumberOfChampionships" Type="int" />
+    <Property Name="LifetimePoints" Type="int" />
+    <Property Name="PointsInSeason" Type="int" />
+    <Property Name="PValue" Type="int" />
+    <Property Name="idTeams" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Teams">
+    <Key>
+      <PropertyRef Name="idTeams" />
+    </Key>
+    <Property Name="idTeams" Type="int" Nullable="false" />
+    <Property Name="TName" Type="varchar" MaxLength="100" />
+    <Property Name="HomeTown" Type="varchar" MaxLength="100" />
+    <Property Name="Found" Type="int" Nullable="false" />
+    <Property Name="WinPercentageSinceFounded" Type="float" Nullable="false" />
+    <Property Name="WinPercentageInSeason" Type="float" Nullable="false" />
+    <Property Name="NumberOfChampionships" Type="int" />
+  </EntityType>
+  <Association Name="Coaches_FOREIGN_KEY">
+    <End Role="Teams" Type="Self.Teams" Multiplicity="1" />
+    <End Role="Coaches" Type="Self.Coaches" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="idTeams" />
+      </Principal>
+      <Dependent Role="Coaches">
+        <PropertyRef Name="idTeams" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Player_FOREIGN_KEY">
+    <End Role="Teams" Type="Self.Teams" Multiplicity="1" />
+    <End Role="Players" Type="Self.Players" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="idTeams" />
+      </Principal>
+      <Dependent Role="Players">
+        <PropertyRef Name="idTeams" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DatabaseModelStoreContainer">
+    <EntitySet Name="Coaches" EntityType="Self.Coaches" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Players" EntityType="Self.Players" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Teams" EntityType="Self.Teams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="Coaches_FOREIGN_KEY" Association="Self.Coaches_FOREIGN_KEY">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="Coaches" EntitySet="Coaches" />
+    </AssociationSet>
+    <AssociationSet Name="Player_FOREIGN_KEY" Association="Self.Player_FOREIGN_KEY">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="Players" EntitySet="Players" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

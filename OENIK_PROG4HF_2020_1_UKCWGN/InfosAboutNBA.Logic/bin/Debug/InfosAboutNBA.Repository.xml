@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InfosAboutNBA.Repository</name>
+    </assembly>
+    <members>
+        <member name="T:InfosAboutNba.Repository.CoachRepository">
+            <summary>
+            Class for Coaches wich represents ICoachRepository.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Repository.CoachRepository.#ctor(InfosAboutNba.Data.NBA_DatabaseEntities)">
+            <summary>
+            Initializes a new instance of the <see cref="T:InfosAboutNba.Repository.CoachRepository"/> class.
+            </summary>
+            <param name="entities"> NBA_DataEntities, wich is automatically generated from database.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.CoachRepository.AddCoach(InfosAboutNba.Data.Coaches)">
+            <summary>
+            Add one Coach item to the table Coaches.
+            </summary>
+            <param name="coach"> Coach object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.CoachRepository.DeleteCoach(System.Int32)">
+            <summary>
+            Removes the selected Coach item from the database.
+            </summary>
+            <param name="id"> id of the removable Coach item.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.CoachRepository.GetAll">
+            <summary>
+            Returns all Coach object from the table Coaches.
+            </summary>
+            <returns> All Coach object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.CoachRepository.GetOne(System.Int32)">
+            <summary>
+            Returns the selected Coach object from the table Coaches.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <returns> Selected Coach object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.CoachRepository.ModifyCoachNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Coach.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.CoachRepository.ModifyCoachWinPercentageInSeason(System.Int32,System.Double)">
+            <summary>
+            Modify the win percentage of the selected Coach in the Season.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <param name="newPercentage"> New win percentage value.</param>
+        </member>
+        <member name="T:InfosAboutNba.Repository.ICoachRepository">
+            <summary>
+            Interface of Coaches wich represents basic interface, IRepository.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ICoachRepository.AddCoach(InfosAboutNba.Data.Coaches)">
+            <summary>
+            Add one Coach item to the table Coaches.
+            </summary>
+            <param name="coach"> Coach object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ICoachRepository.GetOne(System.Int32)">
+            <summary>
+            Returns the selected Coach object from the table Coaches.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <returns> Selected Coach object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ICoachRepository.ModifyCoachWinPercentageInSeason(System.Int32,System.Double)">
+            <summary>
+            Modify the win percentage of the selected Coach in the Season.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <param name="newPercentage"> New win percentage value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ICoachRepository.ModifyCoachNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Coach.
+            </summary>
+            <param name="id"> id of the selected Coach.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ICoachRepository.DeleteCoach(System.Int32)">
+            <summary>
+            Removes the selected Coach item from the database.
+            </summary>
+            <param name="id"> id of the removable Coach item.</param>
+        </member>
+        <member name="T:InfosAboutNba.Repository.IPlayerRepository">
+            <summary>
+            Inteface of Players wich represents basic interface, IRepository.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IPlayerRepository.AddPlayer(InfosAboutNba.Data.Players)">
+            <summary>
+            Add one Player to the table Players.
+            </summary>
+            <param name="player"> Player object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IPlayerRepository.GetOne(System.Int32)">
+            <summary>
+            Returns one selected Player object.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <returns> One Player object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IPlayerRepository.ModifyPlayerAge(System.Int32,System.Int32)">
+            <summary>
+            Modify the age of the selected Player.
+            </summary>
+            <param name="id"> id of selected Player.</param>
+            <param name="newAge"> New age value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IPlayerRepository.ModifyPlayerHeight(System.Int32,System.Int32)">
+            <summary>
+            Modify the height of the selected Player.
+            </summary>
+            <param name="id"> id of selected Player.</param>
+            <param name="newHeigh"> New height value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IPlayerRepository.ModifyPlayerWeight(System.Int32,System.Int32)">
+            <summary>
+            Modify the weight of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newWeight"> New weight value. </param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IPlayerRepository.ModifyPlayerPointsInSeason(System.Int32,System.Int32)">
+            <summary>
+            Modify the points of the selected Player in the Season.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newPoints"> New Point value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IPlayerRepository.ModifyPlayerNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Playar.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IPlayerRepository.DeletePlayer(System.Int32)">
+            <summary>
+            Removes the selected Player from the database.
+            </summary>
+            <param name="id"> id of the removable Player.</param>
+        </member>
+        <member name="T:InfosAboutNba.Repository.ITeamRepository">
+            <summary>
+            Interface for Teams.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ITeamRepository.AddTeam(InfosAboutNba.Data.Teams)">
+            <summary>
+            Add one Teams item to the table Teams.
+            </summary>
+            <param name="team"> Teams type item.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ITeamRepository.GetOne(System.Int32)">
+            <summary>
+            Returns one Team from table Teams.
+            </summary>
+            <param name="id"> id of a Team.</param>
+            <returns> one Team type item.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ITeamRepository.ModifyTeamWinPercentageInSeason(System.Int32,System.Double)">
+            <summary>
+            Modify win percentage of a team in the season.
+            </summary>
+            <param name="id"> id of a Team.</param>
+            <param name="newPercentage"> The new win percentage of the Team.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ITeamRepository.ModifyTeamNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of a team.
+            </summary>
+            <param name="id"> id of a Team.</param>
+            <param name="newNumber"> The nw number of championships.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.ITeamRepository.DeleteTeam(System.Int32)">
+            <summary>
+            Remove a Team from the Database.
+            </summary>
+            <param name="id"> id of a Team.</param>
+        </member>
+        <member name="T:InfosAboutNba.Repository.PlayerRepository">
+            <summary>
+            Class for Players wich represents IPlayerRepository.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.#ctor(InfosAboutNba.Data.NBA_DatabaseEntities)">
+            <summary>
+            Initializes a new instance of the <see cref="T:InfosAboutNba.Repository.PlayerRepository"/> class.
+            </summary>
+            <param name="entities"> NBA_DataEntites, wich is automatically generated from database.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.AddPlayer(InfosAboutNba.Data.Players)">
+            <summary>
+            Add one Player to the table Players.
+            </summary>
+            <param name="player"> Player object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.DeletePlayer(System.Int32)">
+            <summary>
+            Removes the selected Player from the database.
+            </summary>
+            <param name="id"> id of the removable Player.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.GetAll">
+            <summary>
+            Returns all Player object from table Players.
+            </summary>
+            <returns> All Player object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.GetOne(System.Int32)">
+            <summary>
+            Returns the selected Player item from table Players.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <returns> Selected Player item.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.ModifyPlayerAge(System.Int32,System.Int32)">
+            <summary>
+            Modify the age of the selected Player.
+            </summary>
+            <param name="id"> id of selected Player.</param>
+            <param name="newAge"> New age value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.ModifyPlayerHeight(System.Int32,System.Int32)">
+            <summary>
+            Modify the height of the selected Player.
+            </summary>
+            <param name="id"> id of selected Player.</param>
+            <param name="newHeigh"> New height value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.ModifyPlayerNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of championships of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Playar.</param>
+            <param name="newNumber"> New number of championships.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.ModifyPlayerPointsInSeason(System.Int32,System.Int32)">
+            <summary>
+            Modify the points of the selected Player in the Season.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newPoints"> New Point value.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.PlayerRepository.ModifyPlayerWeight(System.Int32,System.Int32)">
+            <summary>
+            Modify the weight of the selected Player.
+            </summary>
+            <param name="id"> id of the selected Player.</param>
+            <param name="newWeight"> New weight value. </param>
+        </member>
+        <member name="T:InfosAboutNba.Repository.IRepository`1">
+            <summary>
+            Basic Interface.
+            </summary>
+            <typeparam name="T">Where T is a class.</typeparam>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IRepository`1.GetOne(System.Int32)">
+            <summary>
+            Returns one item from the database.
+            </summary>
+            <param name="id"> id of a T type item from database.</param>
+            <returns> T type item.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.IRepository`1.GetAll">
+            <summary>
+            Returns all elements from the database.
+            </summary>
+            <returns> All T type item.</returns>
+        </member>
+        <member name="T:InfosAboutNba.Repository.TeamRepository">
+            <summary>
+            Class for the Teams wich represents ITeamRepository interface.
+            </summary>
+        </member>
+        <member name="M:InfosAboutNba.Repository.TeamRepository.#ctor(InfosAboutNba.Data.NBA_DatabaseEntities)">
+            <summary>
+            Initializes a new instance of the <see cref="T:InfosAboutNba.Repository.TeamRepository"/> class TeamRepository.
+            </summary>
+            <param name="entities"> NBA_DataEntities, wich is automatically generated from databse.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.TeamRepository.AddTeam(InfosAboutNba.Data.Teams)">
+            <summary>
+            Add new Team object to the table Teams.
+            </summary>
+            <param name="team"> Team object.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.TeamRepository.DeleteTeam(System.Int32)">
+            <summary>
+            Remove a Team object from the database.
+            </summary>
+            <param name="id"> id of the removable Team.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.TeamRepository.GetAll">
+            <summary>
+            Returns all Team object from the table Teams.
+            </summary>
+            <returns> All Team object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.TeamRepository.GetOne(System.Int32)">
+            <summary>
+            Returns one Team object from the table Teams.
+            </summary>
+            <param name="id"> id of the selected Team.</param>
+            <returns> Selected Team object.</returns>
+        </member>
+        <member name="M:InfosAboutNba.Repository.TeamRepository.ModifyTeamNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            Modify the number of Championships of the selected Team.
+            </summary>
+            <param name="id"> id of the selected Team.</param>
+            <param name="newNumber"> New number of Championships.</param>
+        </member>
+        <member name="M:InfosAboutNba.Repository.TeamRepository.ModifyTeamWinPercentageInSeason(System.Int32,System.Double)">
+            <summary>
+            Modify the win percentage of the selected Team in the Season.
+            </summary>
+            <param name="id"> id of the selected Team.</param>
+            <param name="newPercentage"> New win percentage.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Coaches">
+    <Key>
+      <PropertyRef Name="idCoaches" />
+    </Key>
+    <Property Name="idCoaches" Type="Int32" Nullable="false" />
+    <Property Name="CName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="WinPercentage" Type="Double" />
+    <Property Name="NumberOfSeasons" Type="Int32" />
+    <Property Name="PreviusTeam" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NumberOfChampionships" Type="Int32" />
+    <Property Name="idTeams" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Teams" Relationship="Self.Coaches_FOREIGN_KEY" FromRole="Coaches" ToRole="Teams" />
+  </EntityType>
+  <EntityType Name="Players">
+    <Key>
+      <PropertyRef Name="idPlayers" />
+    </Key>
+    <Property Name="idPlayers" Type="Int32" Nullable="false" />
+    <Property Name="PName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="NumberOfPlayedSeason" Type="Int32" />
+    <Property Name="Position" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Height" Type="Int32" Nullable="false" />
+    <Property Name="PWeight" Type="Int32" />
+    <Property Name="NumberOfChampionships" Type="Int32" />
+    <Property Name="LifetimePoints" Type="Int32" />
+    <Property Name="PointsInSeason" Type="Int32" />
+    <Property Name="PValue" Type="Int32" />
+    <Property Name="idTeams" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Teams" Relationship="Self.Player_FOREIGN_KEY" FromRole="Players" ToRole="Teams" />
+  </EntityType>
+  <EntityType Name="Teams">
+    <Key>
+      <PropertyRef Name="idTeams" />
+    </Key>
+    <Property Name="idTeams" Type="Int32" Nullable="false" />
+    <Property Name="TName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="HomeTown" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Found" Type="Int32" Nullable="false" />
+    <Property Name="WinPercentageSinceFounded" Type="Double" Nullable="false" />
+    <Property Name="WinPercentageInSeason" Type="Double" Nullable="false" />
+    <Property Name="NumberOfChampionships" Type="Int32" />
+    <NavigationProperty Name="Coaches" Relationship="Self.Coaches_FOREIGN_KEY" FromRole="Teams" ToRole="Coaches" />
+    <NavigationProperty Name="Players" Relationship="Self.Player_FOREIGN_KEY" FromRole="Teams" ToRole="Players" />
+  </EntityType>
+  <Association Name="Coaches_FOREIGN_KEY">
+    <End Role="Teams" Type="Self.Teams" Multiplicity="1" />
+    <End Role="Coaches" Type="Self.Coaches" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="idTeams" />
+      </Principal>
+      <Dependent Role="Coaches">
+        <PropertyRef Name="idTeams" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Player_FOREIGN_KEY">
+    <End Role="Teams" Type="Self.Teams" Multiplicity="1" />
+    <End Role="Players" Type="Self.Players" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="idTeams" />
+      </Principal>
+      <Dependent Role="Players">
+        <PropertyRef Name="idTeams" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NBA_DatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Coaches" EntityType="Self.Coaches" />
+    <EntitySet Name="Players" EntityType="Self.Players" />
+    <EntitySet Name="Teams" EntityType="Self.Teams" />
+    <AssociationSet Name="Coaches_FOREIGN_KEY" Association="Self.Coaches_FOREIGN_KEY">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="Coaches" EntitySet="Coaches" />
+    </AssociationSet>
+    <AssociationSet Name="Player_FOREIGN_KEY" Association="Self.Player_FOREIGN_KEY">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="Players" EntitySet="Players" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
