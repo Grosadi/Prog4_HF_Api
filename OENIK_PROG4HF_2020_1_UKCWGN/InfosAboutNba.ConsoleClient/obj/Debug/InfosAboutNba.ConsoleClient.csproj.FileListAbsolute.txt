@@ -1,0 +1,10 @@
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\bin\Debug\InfosAboutNba.ConsoleClient.exe.config
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\bin\Debug\InfosAboutNba.ConsoleClient.exe
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\bin\Debug\InfosAboutNba.ConsoleClient.pdb
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\obj\Debug\InfosAboutNba.ConsoleClient.csprojAssemblyReference.cache
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\obj\Debug\InfosAboutNba.ConsoleClient.csproj.CoreCompileInputs.cache
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\obj\Debug\InfosAboutNba.ConsoleClient.csproj.CopyComplete
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\obj\Debug\InfosAboutNba.ConsoleClient.exe
+C:\Users\hp EliteBook\Documents\oenik_prog4hf_2020_1_ukcwgn\OENIK_PROG4HF_2020_1_UKCWGN\InfosAboutNba.ConsoleClient\obj\Debug\InfosAboutNba.ConsoleClient.pdb
