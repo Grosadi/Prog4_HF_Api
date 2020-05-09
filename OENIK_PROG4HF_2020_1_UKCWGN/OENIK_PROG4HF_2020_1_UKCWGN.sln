@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfosAboutNba.Web", "InfosA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfosAboutNba.ConsoleClient", "InfosAboutNba.ConsoleClient\InfosAboutNba.ConsoleClient.csproj", "{BFE73347-A674-4A13-A827-A8B7D645F588}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfosAboutNba.Wpf", "InfosAboutNba.Wpf\InfosAboutNba.Wpf.csproj", "{279EFDAE-26C3-47AD-85D2-940E18FFD94C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BFE73347-A674-4A13-A827-A8B7D645F588}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFE73347-A674-4A13-A827-A8B7D645F588}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFE73347-A674-4A13-A827-A8B7D645F588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279EFDAE-26C3-47AD-85D2-940E18FFD94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279EFDAE-26C3-47AD-85D2-940E18FFD94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279EFDAE-26C3-47AD-85D2-940E18FFD94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279EFDAE-26C3-47AD-85D2-940E18FFD94C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,28 @@
+﻿<Window x:Class="InfosAboutNba.Wpf.EditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InfosAboutNba.Wpf"
+        mc:Ignorable="d"
+        Title="EditorWindow" Height="314" Width="310.666"
+        d:DataContext="{d:DesignInstance Type={x:Type local:TeamVM}}">
+    <Grid Margin="0,0,56.333,46.667">
+
+        <Label Content="Name" HorizontalAlignment="Left" Margin="64,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.309,0.344"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,14,-36.666,0" TextWrapping="Wrap" Text="{Binding Path=Name}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.081,-1.763"/>
+        <Label Content="HomeTown" HorizontalAlignment="Left" Margin="50,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.309,0.344"/>
+        <Label Content="Found" HorizontalAlignment="Left" Margin="64,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.309,0.344"/>
+        <Label Content="Win % in Season" HorizontalAlignment="Left" Margin="37,103,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.309,0.344"/>
+        <Label Content="Win % since Found" HorizontalAlignment="Left" Margin="37,134,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.309,0.344"/>
+        <Label Content="Number of Champs" HorizontalAlignment="Left" Margin="37,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.309,0.344" Grid.RowSpan="4"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,45,-36.666,0" TextWrapping="Wrap" Text="{Binding Path=HomeTown}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.081,-1.763"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,75,-36.666,0" TextWrapping="Wrap" Text="{Binding Path=Found}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.081,-1.763"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,107,-36.666,0" TextWrapping="Wrap" Text="{Binding Path=WinPercentageInSeason}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.081,-1.763"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,137,-36.666,0" TextWrapping="Wrap" Text="{Binding Path=WinPercentageSinceFounded}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.081,-1.763"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,168,-36.666,0" TextWrapping="Wrap" Text="{Binding Path=NumberOfChampionships}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.081,-1.763" Grid.RowSpan="4"/>
+        <Button Click="Ok_Button_Click" Content="OK" HorizontalAlignment="Left" Margin="37,213,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="Cancel_Button_Click" Content="Cancel" HorizontalAlignment="Left" Margin="159,213,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

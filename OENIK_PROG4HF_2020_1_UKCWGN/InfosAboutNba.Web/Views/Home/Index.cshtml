@@ -2,31 +2,5 @@
     ViewBag.Title = "API Test";
 }
 
-<h2>API Test</h2>
+<h2>API Main Page</h2>
 
-<p id="message" style="color:red;font-weight:bold"></p>
-<ul id="teams"></ul>
-Team ID:
-<input type="text" id="teamId"/>
-<br />
-<button onclick="doList()">LIST</button>
-<button onclick="doListNEW()">LIST2</button>
-<button onclick="doAdd()">ADD</button>
-<button onclick="doMod()">MOD</button>
-<button onclick="doDel()">DEL</button>
-
-@section sricpts {
-    <script language="javascript">
-        var url = "http://localhost:62204/api/TeamsApi/";
-
-        function htmlEncode(textValue) {
-            return $("<div />").text(textValue).html();
-        }
-
-        function doList() {
-            $.get(url + "all", null, function (data, status, jqxr) {
-                alert("ALL: " + data);
-            }, "html");
-        }
-    </script>
-}
